@@ -1,0 +1,4 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+git creates a .git file that stores the metadata for the repository.
+without this their is no way for git to perform version control.
