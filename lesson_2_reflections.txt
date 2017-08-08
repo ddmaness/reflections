@@ -18,3 +18,34 @@ in the repository.
 How can you use the staging area to make sure you have one commit per logical change?
 
 by comparing the staging area to commit 1 in the respository using the command git diff --staged
+
+
+
+What are some situations when branches would be helpful in keeping your history organized? 
+How would branches help?
+
+in trying out an experimental feature. If you would like to go back to the normal version of the
+code you can because the experimental feature is on a completely seperate branch.
+
+
+
+How do the diagrams help you visualize the branch structure?
+
+because branches are literally structured like the brances on a tree. with some branches
+sprouting off from other branches while only sharing the same trunk with others unable to reach them
+directly.
+
+
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+all the changes made by the two branches are included in the new commit and the new commit has access
+to the commits of both branches (hence how it is depicted in the diagram)
+
+
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+automatic merge is faster but may result in unintended consequences as git cannot be sure
+if its method for carrying out the merge would have been the same as your own.  Manual merges
+solve this issue at the expense of time and efficiency
