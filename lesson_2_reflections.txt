@@ -2,3 +2,19 @@ What happens when you initialize a repository? Why do you need to do it?
 
 git creates a .git file that stores the metadata for the repository.
 without this their is no way for git to perform version control.
+
+
+
+How is the staging area different from the working directory and the repository? 
+What value do you think it offers?
+
+The staging area contains only those files that you would like to be part of the
+staging area.  They have not yet been committed in the repository.  This allows you
+to selectively commit files from a directory instead of being forced to commit all or none
+in the repository.
+
+
+
+How can you use the staging area to make sure you have one commit per logical change?
+
+by comparing the staging area to commit 1 in the respository using the command git diff --staged
