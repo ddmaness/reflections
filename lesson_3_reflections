@@ -27,3 +27,14 @@ Through email by sharing files and posting messages in the email.  It would be h
 you would need to contact the person incharge of the master branch everytime you wanted to update your repository.
 I guess the only thing that would be easier is that GitHub can be a little arcane and not user friendly at times, so
 that could be avoided.
+
+
+
+When would you want to make changes in a separate branch rather than directly in master? 
+What benefits does each approach have?
+
+Working in a seperate branch means that you can work on experimental features without
+fear of breaking functionality in master.  The downside is that their is some additional
+effort and time required in keeping your master up to date and merging it into your 
+experimental branch.  As well as the additional time and effort required to merge your
+experimental branch into master once it is ready.
