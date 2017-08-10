@@ -37,3 +37,9 @@ between two repositories using their ids.
 How might using version control make you more confident to make changes that could break something?
 
 If a new thing that I am trying inadvertently breaks something, I can always revert back to a previous version.
+
+
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+I would like to use git to collaborate with others without breaking their codebase
